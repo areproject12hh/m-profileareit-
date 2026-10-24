@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    background-color: white;
+    width: 380px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.profile-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #74b9ff;
+    margin-bottom: 15px;
+}
+
+.profile-card h1 {
+    margin: 10px 0 5px 0;
+    font-size: 24px;
+}
+
+.profile-card .title {
+    color: #0984e3;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.profile-card .bio {
+    color: #636e72;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.skills-section {
+    margin-bottom: 15px;
+}
+
+.skills-section h3, .contact-section h3 {
+    font-size: 15px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #f1f2f6;
+    padding-bottom: 4px;
+}
+
+.skill-tag {
+    display: inline-block;
+    background-color: #dfe6e9;
+    color: #2d3436;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: block;
+    background-color: #f1f2f6;
+    color: #2d3436;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0984e3;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.js-section {
+    border-top: 2px solid #f1f2f6;
+    padding-top: 12px;
+}
+
+.btn-mode {
+    background-color: #2d3436;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.welcome-box input {
+    width: 70%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.btn-greet {
+    background-color: #00b894;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.welcome-text {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 13px;
+}

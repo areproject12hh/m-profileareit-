@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+    <meta charset="UTF-8">
+    <title>پێناسەی کەسی من - ئاری بەختیار</title>
+    <link rel="stylesheet" href="ara.css">
+</head>
+<body>
+
+    <div class="profile-card">
+        <!-- وێنەی کەسی -->
+        <img src="my-photo.jpg" alt="وێنەی من" class="profile-img">
+        
+        <!-- ناو و پۆست -->
+        <h1>ئاری بەختیار</h1>
+        <p class="title">قوتابی IT & گەشەپێدەری وێب</p>
+        
+        <!-- دەقی پێناسە -->
+        <p class="bio">حەزم لە فێربوونی تەکنەلۆژیا و دروستکردنی سیستەمی مۆدێرنە.</p>
+        
+        <!-- بەشی شارەزاییەکان -->
+        <div class="skills-section">
+            <h3>شارەزاییەکان</h3>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">IT Basics</span>
+        </div>
+
+        <!-- بەشی پەیوەندیکردن و لینکەکان -->
+        <div class="contact-section">
+            <h3>پەیوەندیم پێوە بکە</h3>
+            <div class="links-container">
+                <a href="tel:07721534310" class="btn">📞 تەلەفۆن</a>
+                <a href="mailto:mnare4639@gmail.com" class="btn">✉️ ئیمەیڵ</a>
+                <a href="https://www.facebook.com/share/19TYVSn4ca/" target="_blank" class="btn">📘 فەیسبووک</a>
+                <a href="https://instagram.com/arefitness1" target="_blank" class="btn">📸 ئینستاگرام</a>
+                <a href="https://www.snapchat.com/add/mnare25" target="_blank" class="btn">👻 سناپچات</a>
+            </div>
+        </div>
+
+        <!-- بەشی JavaScript (گۆڕینی ڕەنگ و پێشوازی) -->
+        <div class="js-section">
+            <button onclick="toggleDarkMode()" class="btn-mode">🌙 گۆڕینی دۆخی ڕەنگ</button>
+            
+            <div class="welcome-box">
+                <input type="text" id="visitorName" placeholder="ناوی خۆت بنووسە...">
+                <button id="greetBtn" class="btn-greet">سڵاو</button>
+                <p id="welcomeMessage" class="welcome-text"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- فایلی JavaScriptـی بەستراوە -->
+    <script src="ara.js"></script>
+</body>
+</html>
